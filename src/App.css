@@ -1,0 +1,29 @@
+.scrollToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
+    opacity: 0;
+  }
+
+.navbar{
+
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a{
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.navbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
